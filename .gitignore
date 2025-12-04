@@ -1,0 +1,56 @@
+# ======================================================
+# NODE / NPM
+# ======================================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Logs
+logs/
+*.log
+*.log.*
+debug.log
+error.log
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Build output
+dist/
+build/
+out/
+
+# Coverage reports
+coverage/
+
+# Temporary files
+.tmp/
+temp/
+
+# ======================================================
+# TYPESCRIPT
+# ======================================================
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+
+# ======================================================
+# VS CODE
+# ======================================================
+.vscode/
+.history/
+
+# ======================================================
+# OS FILES
+# ======================================================
+.DS_Store
+Thumbs.db
+
+# ======================================================
+# WSL / Linux generated files
+# ======================================================
+*.swp
+*.swo
